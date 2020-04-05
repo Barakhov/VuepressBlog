@@ -7,6 +7,7 @@ module.exports = {
             { text: 'Home', link: '/'},
             { text: 'About', link: '/about.html'},
             { text: 'JS30', link: '/js30/'}
-        ]
+        ],
+        sidebar: 'auto'
     }
 }
