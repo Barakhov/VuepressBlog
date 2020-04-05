@@ -1,6 +1,21 @@
 {
+    "name": "vuepress blog",
+    "version": "0.0.1",
+    "description": "VuePress + Tracis CI + Github pages",
+    "author": "abarakhov@gmail.com",
+    "repository": "https://github.com/Barakhov/VuepressBlog.git",
     "scripts": {
         "docs:dev": "vuepress dev docs",
-        "docs:build": "vuepress build docs"
+        "docs:build": "vuepress build docs",
+        "clean": "rimraf dist/*"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "vuepress": "^1.0.4"
+    },
+    "dependencies": {
+        "markdown-it": "^8.4.1",
+        "markdown-it-emoji": "^1.4.0",
+        "markdown-it-katex": "^2.0.3"
     }
 }
