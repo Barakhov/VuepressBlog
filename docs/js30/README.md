@@ -7,3 +7,9 @@
 ## Playing with CSS Variables and JS
 
 ## Array Cardio Day 1
+
+<script>
+
+console.log('yes! 0')
+
+</script>
